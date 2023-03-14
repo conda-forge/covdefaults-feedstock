@@ -1,5 +1,5 @@
 {% set name = "covdefaults" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/covdefaults-{{ version }}.tar.gz
-  sha256: 237c9a2cf4a6c821a908dd54635027a813988419c9fda83c7e654a61b8c19d56
+  sha256: 4e99f679f12d792bc62e5510fa3eb59546ed47bd569e36e4fddc4081c9c3ebf7
 
 build:
   number: 0
